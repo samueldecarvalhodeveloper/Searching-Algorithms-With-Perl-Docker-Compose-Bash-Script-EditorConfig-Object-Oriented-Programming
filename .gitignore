@@ -1,0 +1,63 @@
+# Ignore Perl build and temporary files
+blib/
+Makefile
+Makefile.old
+pm_to_blib
+*.o
+*.so
+*.bs
+*.dll
+*.exe
+
+# Ignore module build files
+Build/
+Build.bat
+_build/
+
+# Ignore test and coverage files
+*.gcda
+*.gcno
+*.gcov
+cover_db/
+nyc_output/
+
+# Ignore CPAN distributions
+/META.yml
+/META.json
+/MYMETA.*
+/MANIFEST
+*.tar.gz
+
+# Ignore local Perl configurations
+local/
+cpanfile.snapshot
+
+# Ignore common temp files and logs
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.old
+*.orig
+
+# Ignore dependency and package management files
+*.pmc
+*.pod
+*.bundle
+*.tar
+
+# Ignore Perl debugger files
+perldb.out
+
+# Ignore editor and IDE-specific files
+*.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Ignore version control directories
+.svn/
+.hg/
+CVS/
